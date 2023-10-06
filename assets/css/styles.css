@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
+
+/* Common */
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1440px;
+    max-width: calc(100%-135px);
+    margin: 0 auto;
+}
