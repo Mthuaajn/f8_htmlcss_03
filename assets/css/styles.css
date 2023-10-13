@@ -57,6 +57,7 @@ a {
 .logo {
     display: flex;
 }
+
 .logo__circle {
     position: relative;
     width: 30px;
@@ -102,20 +103,20 @@ a {
     margin-left: 318px;
 }
 
-.navbar ul {
+.navbar__list {
     display: flex;
 }
 
-.navbar ul li {
+.navbar__item {
     margin-right: 42px;
 }
 
-.navbar ul li:last-child {
+.navbar__item:last-child {
     margin-right: 0px;
     text-align: right;
 }
 
-.navbar ul li a {
+.navbar__item a {
     color: #c9d2da;
     text-align: center;
     font-size: 1.6rem;
@@ -196,14 +197,13 @@ a {
     line-height: 1.66667;
 }
 
-.hero__images{
-
+.hero__images {
     display: flex;
     align-items: center;
     margin-left: 113px;
 }
 
-.hero__img{
+.hero__img {
     width: auto;
     height: auto;
 }
