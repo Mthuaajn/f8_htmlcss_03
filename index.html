@@ -41,6 +41,13 @@
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
+        <!-- font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
         <!-- embed font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -52,7 +59,7 @@
         <!-- link css -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
-    <body>
+    <body style="height: 10000px">
         <header class="header">
             <div class="container">
                 <div class="header-top">
@@ -109,5 +116,67 @@
                 </section>
             </div>
         </header>
+        <main>
+            <section class="services">
+                <div class="container">
+                    <h2 class="services--tittle">Our services</h2>
+                    <p class="services--desc">
+                        Exceptional dental care for all ages. Your great smile begins with a great
+                        dentist.
+                    </p>
+                    <section class="services__row">
+                        <img src="./assets/img/sevice.png" alt="" class="services__img" />
+                        <section class="body">
+                            <ul class="body__list">
+                                <li class="body__item">
+                                    <div class="body__item--circle">
+                                        <i class="fa-solid fa-tooth"></i>
+                                    </div>
+                                    <div class="body__item__info">
+                                        <strong class="body__item__info--title"
+                                            >Oral Surgery</strong
+                                        >
+                                        <p class="body__item__info--desc">
+                                            Everything you expect and then some. Cleanings,
+                                            fillings, and x-rays.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="body__item">
+                                    <div class="body__item--circle">
+                                        <i class="fa-solid fa-tooth"></i>
+                                    </div>
+                                    <div class="body__item__info">
+                                        <strong class="body__item__info--title"
+                                            >Wisdom Teeth Removal</strong
+                                        >
+                                        <p class="body__item__info--desc">
+                                            Everything you expect and then some. Cleanings,
+                                            fillings, and x-rays.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="body__item">
+                                    <div class="body__item--circle">
+                                        <i class="fa-solid fa-tooth"></i>
+                                    </div>
+                                    <div class="body__item__info">
+                                        <strong class="body__item__info--title"
+                                            >Preventative Dentistry</strong
+                                        >
+                                        <p class="body__item__info--desc">
+                                            Everything you expect and then some. Cleanings,
+                                            fillings, and x-rays.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="btn services-action">All Services</a>
+                        </section>
+                    </section>
+                </div>
+            </section>
+        </main>
+        <footer class="footer"></footer>
     </body>
 </html>
